@@ -11,6 +11,10 @@
 # production
 /build
 
+# src
+
+/src/DOKIDOKI_FILES
+
 # misc
 .DS_Store
 .env.local
