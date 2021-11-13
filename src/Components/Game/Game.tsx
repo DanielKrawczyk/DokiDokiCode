@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import MainCharacter from "../../Engine/MainCharacter/MainCharacter";
 import Story from "../../Engine/Story/Story";
 import { GetId, GetQuery } from "../../Handlers/DocumentHandlers";
 import Background from "./Components/Background";
@@ -6,10 +7,15 @@ import Characters from "./Components/Characters";
 import Debug from "./Components/Debug";
 import Storybar from "./Components/Storybar";
 
+import { useRecoilValue } from "recoil";
+import PlayerNameState from "../../States/PlayerName";
+
 export default function Game( props: any ): any {
 
     const [ DataCount, SetDataCount ] = useState(0);
     const Data: Story = new Story( props.Data[ DataCount ] );
+    const Player: MainCharacter = new MainCharacter( useRecoilValue( PlayerNameState ) );
+    Player.SetCurrentStage(DataCount);
 
     function FadeInAndOutBlackscreen(): void {
         const EStory: DOMTokenList = GetId( "story" ).classList,
@@ -54,10 +60,12 @@ export default function Game( props: any ): any {
     useEffect(() => {
 
         setTimeout(() => {
-            GetQuery( "blackscreen" )?.classList.remove( "active" );
+            GetQuery( "blackscreen" ).classList.remove( "active" );
 
             setTimeout(() => {
-                GetId( "storybar" )?.classList.remove( "hide" );
+                const Storybar = GetId( "storybar" );
+                if (Storybar !== null)
+                    Storybar.classList.remove( "hide" );
             }, 1000);
 
         }, 1000);
@@ -74,27 +82,30 @@ export default function Game( props: any ): any {
         <div className="story" id="story">
             <Background Image={ Data.Background } />
             <Characters Characters={ Data.Characters } />
-            <Storybar
-                Person={ Data.Person }
-                Text={ Data.Text }
-                OnNext={() => {
-                    if ( DataCount === props.Data.length - 1 ) return window.alert( "Rest of the story is under development" );
-                    Next();
-                }}
-            />
+            <div className="storybar hide" id="storybar">
+                <Storybar
+                    Person={ Data.Person }
+                    Text={ Data.Text }
+                    OnNext={() => {
+                        if ( DataCount === props.Data.length - 1 ) return window.alert( "Rest of the story is under development" );
+                        Next();
+                    }}
+                />
+            </div>
             {
                 Data.Music === "" ? "":<audio src={`./Assets/Audio/${Data.Music}.ogg`} autoPlay loop></audio>
             }
             {
                 !props.Debug ? "":
                     <Debug 
-                        State={ DataCount } 
+                        State={ DataCount }
+                        Player={ Player }
                         ProceedTo={ ( value: number ) => {
                             if ( value < 0 || value > props.Data.length - 1 ) return;
                             SetDataCount( value );
                         }}
                         OnBackToMenu={ () => props.OnBackToMenu() }
-                        />
+                    />
             }
         </div>
     )

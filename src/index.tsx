@@ -8,7 +8,7 @@ import AppSettings from "./AppSettings";
 
 const Settings: AppSettings = new AppSettings();
 
-if ( window.screen.width < 1024 || Settings.AllowSmallScreens ) {
+if ( window.screen.width < 1024 && !Settings.AllowSmallScreens ) {
 
   ReactDOM.render(
     <React.StrictMode>

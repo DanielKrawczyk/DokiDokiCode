@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 
 import Logo from "./Components/Logo";
 import Menu from "./Components/Menu";
@@ -9,8 +9,6 @@ import Background from "./Components/Background";
 import { GetId } from "../../Handlers/DocumentHandlers";
 
 export default function MainMenu(props: any) {
-
-    const [ IsDone, SetIsDone ] = useState( false );
 
     function LoadBeforeMainContext() {
         const Logo: DOMTokenList = GetId( "logo" ).classList,

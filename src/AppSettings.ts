@@ -7,9 +7,9 @@ export default class AppSettings implements IAppSettings {
     public readonly PublicPath: IPublicPath = Settings.PublicPath;
     public readonly MusicOn: boolean = Settings.MusicOn;
     public readonly MusicVolumeLevel: number = Settings.MusicVolumeLevel;
-    public readonly DevelopmentMode: boolean = Settings.DevelopmentMode;
+    public readonly DevelopmentMode: boolean = Settings.DevelopmentMode; // should be false for build
     public readonly AllowAutoSave: boolean = Settings.AllowAutoSave;
     public readonly AllowSmallScreens: boolean = Settings.AllowSmallScreens;
-    public readonly AllowTestingArea: boolean = Settings.AllowTestingArea;
+    public readonly AllowTestingArea: boolean = Settings.AllowTestingArea; // should be always false, unless for testing new animations
 
 }

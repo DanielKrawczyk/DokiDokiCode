@@ -18,8 +18,10 @@ export default class MainCharacter implements IMainCharacter {
         return this._CurrentStage;
     }
 
-    constructor( MainCharacterName: string ) {
+    constructor( MainCharacterName: string, CurrentStage: number = 0, Choices: Array<IChoice> = [] ) {
         this._MainCharacterName = MainCharacterName;
+        this._CurrentStage = CurrentStage;
+        this._Choices = Choices;
     }
 
     AddChoice = ( value: IChoice ): number => this._Choices.push( value );

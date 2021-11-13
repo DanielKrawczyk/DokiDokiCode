@@ -62,31 +62,28 @@ export default function Storybar( props: any ): any {
 
     return (
         <div 
-            className="storybar hide" 
-            id="storybar"
+            className="storybar-frame"
             onClick={ () => ProceedWhenDone() }
             onContextMenu={ ( event: any ) => RightClickStorybar( event ) }
         >
-            <div className="storybar-frame">
-                <img src="./Assets/Images/Story/textbox.png" className="frame" alt="" />
-                {
-                    Person === "" ? "":<img src="./Assets/Images/Story/namebox.png" className="name" alt="" />
-                }
-                <img src="./Assets/Images/Story/ctc.png" className="arrow" id="arrow" alt="" />
+            <img src="./Assets/Images/Story/textbox.png" className="frame" alt="" />
+            {
+                Person === "" ? "":<img src="./Assets/Images/Story/namebox.png" className="name" alt="" />
+            }
+            <img src="./Assets/Images/Story/ctc.png" className="arrow" id="arrow" alt="" />
 
-                <div className="storybar-frame_person">
-                    <p>
-                        {
-                            Person === "$" ? PlayerName : Person
-                        }
-                    </p>
-                </div>
-                <div className="storybar-frame_text" id="write-text">
+            <div className="storybar-frame_person">
+                <p>
+                    {
+                        Person === "$" ? PlayerName : Person
+                    }
+                </p>
+            </div>
+            <div className="storybar-frame_text" id="write-text">
 
-                </div>
-                <div className="storybar-frame_options">
+            </div>
+            <div className="storybar-frame_options">
 
-                </div>
             </div>
         </div>
     )
