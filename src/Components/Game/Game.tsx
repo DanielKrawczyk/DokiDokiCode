@@ -82,16 +82,14 @@ export default function Game( props: any ): any {
         <div className="story" id="story">
             <Background Image={ Data.Background } />
             <Characters Characters={ Data.Characters } />
-            <div className="storybar hide" id="storybar">
-                <Storybar
-                    Person={ Data.Person }
-                    Text={ Data.Text }
-                    OnNext={() => {
-                        if ( DataCount === props.Data.length - 1 ) return window.alert( "Rest of the story is under development" );
-                        Next();
-                    }}
-                />
-            </div>
+            <Storybar
+                Person={ Data.Person }
+                Text={ Data.Text }
+                OnNext={() => {
+                    if ( DataCount === props.Data.length - 1 ) return window.alert( "Rest of the story is under development" );
+                    Next();
+                }}
+            />
             {
                 Data.Music === "" ? "":<audio src={`./Assets/Audio/${Data.Music}.ogg`} autoPlay loop></audio>
             }
