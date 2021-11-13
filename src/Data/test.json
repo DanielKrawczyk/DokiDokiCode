@@ -1,0 +1,2200 @@
+[
+    {
+        "music":"",
+        "background":"residential",
+        "text":"Warning! Testing area!",
+        "person":"Developer",
+        "characters": [
+            {
+                "name":"Sayori",
+                "effects": [],
+                "position":"center",
+                "images": {
+                    "head": ["a"],
+                    "body": [
+                        "1l",
+                        "1r"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "music":"",
+        "background":"residential",
+        "text":"Now testing Sayori positions and behavior. Effect: { fade-in }, position: { center }",
+        "person":"Developer",
+        "characters": [
+            {
+                "name":"Sayori",
+                "effects": [
+                    "fade-in"
+                ],
+                "position":"center",
+                "images": {
+                    "head": ["a"],
+                    "body": [
+                        "1l",
+                        "1r"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "music":"",
+        "background":"residential",
+        "text":"Effect: { jump }",
+        "person":"Developer",
+        "characters": [
+            {
+                "name":"Sayori",
+                "effects": [
+                    "jump"
+                ],
+                "position":"center",
+                "images": {
+                    "head": ["a"],
+                    "body": [
+                        "1l",
+                        "1r"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "music":"",
+        "background":"residential",
+        "text":"Position: { left }",
+        "person":"Developer",
+        "characters": [
+            {
+                "name":"Sayori",
+                "effects": [
+
+                ],
+                "position":"left",
+                "images": {
+                    "head": ["a"],
+                    "body": [
+                        "1l",
+                        "1r"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "music":"",
+        "background":"residential",
+        "text":"Effect: { fade-out }",
+        "person":"Developer",
+        "characters": [
+            {
+                "name":"Sayori",
+                "effects": [
+                    "fade-out"
+                ],
+                "position":"left",
+                "images": {
+                    "head": ["a"],
+                    "body": [
+                        "1l",
+                        "1r"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "music":"",
+        "background":"residential",
+        "text":"Effect: { fade-in }",
+        "person":"Developer",
+        "characters": [
+            {
+                "name":"Sayori",
+                "effects": [
+                    "fade-in"
+                ],
+                "position":"left",
+                "images": {
+                    "head": ["a"],
+                    "body": [
+                        "1l",
+                        "1r"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "music":"",
+        "background":"residential",
+        "text":"Position: { center-left }",
+        "person":"Developer",
+        "characters": [
+            {
+                "name":"Sayori",
+                "effects": [
+
+                ],
+                "position":"center-left",
+                "images": {
+                    "head": ["a"],
+                    "body": [
+                        "1l",
+                        "1r"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "music":"",
+        "background":"residential",
+        "text":"Effect: { fade-out }",
+        "person":"Developer",
+        "characters": [
+            {
+                "name":"Sayori",
+                "effects": [
+                    "fade-out"
+                ],
+                "position":"center-left",
+                "images": {
+                    "head": ["a"],
+                    "body": [
+                        "1l",
+                        "1r"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "music":"",
+        "background":"residential",
+        "text":"Effect: { fade-in }",
+        "person":"Developer",
+        "characters": [
+            {
+                "name":"Sayori",
+                "effects": [
+                    "fade-in"
+                ],
+                "position":"center-left",
+                "images": {
+                    "head": ["a"],
+                    "body": [
+                        "1l",
+                        "1r"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "music":"",
+        "background":"residential",
+        "text":"Position: { left-center }",
+        "person":"Developer",
+        "characters": [
+            {
+                "name":"Sayori",
+                "effects": [
+
+                ],
+                "position":"left-center",
+                "images": {
+                    "head": ["a"],
+                    "body": [
+                        "1l",
+                        "1r"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "music":"",
+        "background":"residential",
+        "text":"Effect: { fade-out }",
+        "person":"Developer",
+        "characters": [
+            {
+                "name":"Sayori",
+                "effects": [
+                    "fade-out"
+                ],
+                "position":"left-center",
+                "images": {
+                    "head": ["a"],
+                    "body": [
+                        "1l",
+                        "1r"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "music":"",
+        "background":"residential",
+        "text":"Effect: { fade-in }",
+        "person":"Developer",
+        "characters": [
+            {
+                "name":"Sayori",
+                "effects": [
+                    "fade-in"
+                ],
+                "position":"left-center",
+                "images": {
+                    "head": ["a"],
+                    "body": [
+                        "1l",
+                        "1r"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "music":"",
+        "background":"residential",
+        "text":"Position: { center }",
+        "person":"Developer",
+        "characters": [
+            {
+                "name":"Sayori",
+                "effects": [
+
+                ],
+                "position":"center",
+                "images": {
+                    "head": ["a"],
+                    "body": [
+                        "1l",
+                        "1r"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "music":"",
+        "background":"residential",
+        "text":"Effect: { fade-out }",
+        "person":"Developer",
+        "characters": [
+            {
+                "name":"Sayori",
+                "effects": [
+                    "fade-out"
+                ],
+                "position":"center",
+                "images": {
+                    "head": ["a"],
+                    "body": [
+                        "1l",
+                        "1r"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "music":"",
+        "background":"residential",
+        "text":"Effect: { fade-in }",
+        "person":"Developer",
+        "characters": [
+            {
+                "name":"Sayori",
+                "effects": [
+                    "fade-in"
+                ],
+                "position":"center",
+                "images": {
+                    "head": ["a"],
+                    "body": [
+                        "1l",
+                        "1r"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "music":"",
+        "background":"residential",
+        "text":"Position: { right-center }",
+        "person":"Developer",
+        "characters": [
+            {
+                "name":"Sayori",
+                "effects": [
+                    
+                ],
+                "position":"right-center",
+                "images": {
+                    "head": ["a"],
+                    "body": [
+                        "1l",
+                        "1r"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "music":"",
+        "background":"residential",
+        "text":"Effect: { fade-out }",
+        "person":"Developer",
+        "characters": [
+            {
+                "name":"Sayori",
+                "effects": [
+                    "fade-out"
+                ],
+                "position":"right-center",
+                "images": {
+                    "head": ["a"],
+                    "body": [
+                        "1l",
+                        "1r"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "music":"",
+        "background":"residential",
+        "text":"Effect: { fade-in }",
+        "person":"Developer",
+        "characters": [
+            {
+                "name":"Sayori",
+                "effects": [
+                    "fade-in"
+                ],
+                "position":"right-center",
+                "images": {
+                    "head": ["a"],
+                    "body": [
+                        "1l",
+                        "1r"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "music":"",
+        "background":"residential",
+        "text":"Position: { center-right }",
+        "person":"Developer",
+        "characters": [
+            {
+                "name":"Sayori",
+                "effects": [
+                    
+                ],
+                "position":"center-right",
+                "images": {
+                    "head": ["a"],
+                    "body": [
+                        "1l",
+                        "1r"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "music":"",
+        "background":"residential",
+        "text":"Effect: { fade-out }",
+        "person":"Developer",
+        "characters": [
+            {
+                "name":"Sayori",
+                "effects": [
+                    "fade-out"
+                ],
+                "position":"center-right",
+                "images": {
+                    "head": ["a"],
+                    "body": [
+                        "1l",
+                        "1r"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "music":"",
+        "background":"residential",
+        "text":"Effect: { fade-in }",
+        "person":"Developer",
+        "characters": [
+            {
+                "name":"Sayori",
+                "effects": [
+                    "fade-in"
+                ],
+                "position":"center-right",
+                "images": {
+                    "head": ["a"],
+                    "body": [
+                        "1l",
+                        "1r"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "music":"",
+        "background":"residential",
+        "text":"Position: { right }",
+        "person":"Developer",
+        "characters": [
+            {
+                "name":"Sayori",
+                "effects": [
+                    
+                ],
+                "position":"right",
+                "images": {
+                    "head": ["a"],
+                    "body": [
+                        "1l",
+                        "1r"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "music":"",
+        "background":"residential",
+        "text":"Effect: { fade-out }",
+        "person":"Developer",
+        "characters": [
+            {
+                "name":"Sayori",
+                "effects": [
+                    "fade-out"
+                ],
+                "position":"right",
+                "images": {
+                    "head": ["a"],
+                    "body": [
+                        "1l",
+                        "1r"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "music":"",
+        "background":"residential",
+        "text":"Effect: { fade-in }",
+        "person":"Developer",
+        "characters": [
+            {
+                "name":"Sayori",
+                "effects": [
+                    "fade-in"
+                ],
+                "position":"right",
+                "images": {
+                    "head": ["a"],
+                    "body": [
+                        "1l",
+                        "1r"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "music":"",
+        "background":"residential",
+        "text":"Preparing Sayori to fade-in from left.",
+        "person":"Developer",
+        "characters": [
+
+        ]
+    },
+    {
+        "music":"",
+        "background":"residential",
+        "text":"Preparing Sayori to fade-in from left. Effect: { fade-from-left }",
+        "person":"Developer",
+        "characters": [
+            {
+                "name":"Sayori",
+                "effects": [
+                    "fade-from-left"
+                ],
+                "position":"right",
+                "images": {
+                    "head": ["a"],
+                    "body": [
+                        "1l",
+                        "1r"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "music":"",
+        "background":"residential",
+        "text":"Effect: { fade-left }",
+        "person":"Developer",
+        "characters": [
+            {
+                "name":"Sayori",
+                "effects": [
+                    "fade-left"
+                ],
+                "position":"right",
+                "images": {
+                    "head": ["a"],
+                    "body": [
+                        "1l",
+                        "1r"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "music":"",
+        "background":"residential",
+        "text":"Effect: { fade-left-away }",
+        "person":"Developer",
+        "characters": [
+            {
+                "name":"Sayori",
+                "effects": [
+                    "fade-left-away"
+                ],
+                "position":"right",
+                "images": {
+                    "head": ["a"],
+                    "body": [
+                        "1l",
+                        "1r"
+                    ]
+                }
+            },
+            {
+                "name":"Natsuki",
+                "effects": [
+                    
+                ],
+                "position":"center",
+                "images": {
+                    "head": ["a"],
+                    "body": [
+                        "1l",
+                        "1r"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "music":"",
+        "background":"residential",
+        "text":"Now testing Natsuki positions and behavior. Effect: { fade-in }, position: { center }",
+        "person":"Developer",
+        "characters": [
+            {
+                "name":"Natsuki",
+                "effects": [
+                    "fade-in"
+                ],
+                "position":"center",
+                "images": {
+                    "head": ["a"],
+                    "body": [
+                        "1l",
+                        "1r"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "music":"",
+        "background":"residential",
+        "text":"Effect: { jump }",
+        "person":"Developer",
+        "characters": [
+            {
+                "name":"Natsuki",
+                "effects": [
+                    "jump"
+                ],
+                "position":"center",
+                "images": {
+                    "head": ["a"],
+                    "body": [
+                        "1l",
+                        "1r"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "music":"",
+        "background":"residential",
+        "text":"Position: { left }",
+        "person":"Developer",
+        "characters": [
+            {
+                "name":"Natsuki",
+                "effects": [
+
+                ],
+                "position":"left",
+                "images": {
+                    "head": ["a"],
+                    "body": [
+                        "1l",
+                        "1r"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "music":"",
+        "background":"residential",
+        "text":"Effect: { fade-out }",
+        "person":"Developer",
+        "characters": [
+            {
+                "name":"Natsuki",
+                "effects": [
+                    "fade-out"
+                ],
+                "position":"left",
+                "images": {
+                    "head": ["a"],
+                    "body": [
+                        "1l",
+                        "1r"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "music":"",
+        "background":"residential",
+        "text":"Effect: { fade-in }",
+        "person":"Developer",
+        "characters": [
+            {
+                "name":"Natsuki",
+                "effects": [
+                    "fade-in"
+                ],
+                "position":"left",
+                "images": {
+                    "head": ["a"],
+                    "body": [
+                        "1l",
+                        "1r"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "music":"",
+        "background":"residential",
+        "text":"Position: { center-left }",
+        "person":"Developer",
+        "characters": [
+            {
+                "name":"Natsuki",
+                "effects": [
+
+                ],
+                "position":"center-left",
+                "images": {
+                    "head": ["a"],
+                    "body": [
+                        "1l",
+                        "1r"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "music":"",
+        "background":"residential",
+        "text":"Effect: { fade-out }",
+        "person":"Developer",
+        "characters": [
+            {
+                "name":"Natsuki",
+                "effects": [
+                    "fade-out"
+                ],
+                "position":"center-left",
+                "images": {
+                    "head": ["a"],
+                    "body": [
+                        "1l",
+                        "1r"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "music":"",
+        "background":"residential",
+        "text":"Effect: { fade-in }",
+        "person":"Developer",
+        "characters": [
+            {
+                "name":"Natsuki",
+                "effects": [
+                    "fade-in"
+                ],
+                "position":"center-left",
+                "images": {
+                    "head": ["a"],
+                    "body": [
+                        "1l",
+                        "1r"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "music":"",
+        "background":"residential",
+        "text":"Position: { left-center }",
+        "person":"Developer",
+        "characters": [
+            {
+                "name":"Natsuki",
+                "effects": [
+
+                ],
+                "position":"left-center",
+                "images": {
+                    "head": ["a"],
+                    "body": [
+                        "1l",
+                        "1r"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "music":"",
+        "background":"residential",
+        "text":"Effect: { fade-out }",
+        "person":"Developer",
+        "characters": [
+            {
+                "name":"Natsuki",
+                "effects": [
+                    "fade-out"
+                ],
+                "position":"left-center",
+                "images": {
+                    "head": ["a"],
+                    "body": [
+                        "1l",
+                        "1r"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "music":"",
+        "background":"residential",
+        "text":"Effect: { fade-in }",
+        "person":"Developer",
+        "characters": [
+            {
+                "name":"Natsuki",
+                "effects": [
+                    "fade-in"
+                ],
+                "position":"left-center",
+                "images": {
+                    "head": ["a"],
+                    "body": [
+                        "1l",
+                        "1r"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "music":"",
+        "background":"residential",
+        "text":"Position: { center }",
+        "person":"Developer",
+        "characters": [
+            {
+                "name":"Natsuki",
+                "effects": [
+
+                ],
+                "position":"center",
+                "images": {
+                    "head": ["a"],
+                    "body": [
+                        "1l",
+                        "1r"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "music":"",
+        "background":"residential",
+        "text":"Effect: { fade-out }",
+        "person":"Developer",
+        "characters": [
+            {
+                "name":"Natsuki",
+                "effects": [
+                    "fade-out"
+                ],
+                "position":"center",
+                "images": {
+                    "head": ["a"],
+                    "body": [
+                        "1l",
+                        "1r"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "music":"",
+        "background":"residential",
+        "text":"Effect: { fade-in }",
+        "person":"Developer",
+        "characters": [
+            {
+                "name":"Natsuki",
+                "effects": [
+                    "fade-in"
+                ],
+                "position":"center",
+                "images": {
+                    "head": ["a"],
+                    "body": [
+                        "1l",
+                        "1r"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "music":"",
+        "background":"residential",
+        "text":"Position: { right-center }",
+        "person":"Developer",
+        "characters": [
+            {
+                "name":"Natsuki",
+                "effects": [
+                    
+                ],
+                "position":"right-center",
+                "images": {
+                    "head": ["a"],
+                    "body": [
+                        "1l",
+                        "1r"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "music":"",
+        "background":"residential",
+        "text":"Effect: { fade-out }",
+        "person":"Developer",
+        "characters": [
+            {
+                "name":"Natsuki",
+                "effects": [
+                    "fade-out"
+                ],
+                "position":"right-center",
+                "images": {
+                    "head": ["a"],
+                    "body": [
+                        "1l",
+                        "1r"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "music":"",
+        "background":"residential",
+        "text":"Effect: { fade-in }",
+        "person":"Developer",
+        "characters": [
+            {
+                "name":"Natsuki",
+                "effects": [
+                    "fade-in"
+                ],
+                "position":"right-center",
+                "images": {
+                    "head": ["a"],
+                    "body": [
+                        "1l",
+                        "1r"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "music":"",
+        "background":"residential",
+        "text":"Position: { center-right }",
+        "person":"Developer",
+        "characters": [
+            {
+                "name":"Natsuki",
+                "effects": [
+                    
+                ],
+                "position":"center-right",
+                "images": {
+                    "head": ["a"],
+                    "body": [
+                        "1l",
+                        "1r"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "music":"",
+        "background":"residential",
+        "text":"Effect: { fade-out }",
+        "person":"Developer",
+        "characters": [
+            {
+                "name":"Natsuki",
+                "effects": [
+                    "fade-out"
+                ],
+                "position":"center-right",
+                "images": {
+                    "head": ["a"],
+                    "body": [
+                        "1l",
+                        "1r"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "music":"",
+        "background":"residential",
+        "text":"Effect: { fade-in }",
+        "person":"Developer",
+        "characters": [
+            {
+                "name":"Natsuki",
+                "effects": [
+                    "fade-in"
+                ],
+                "position":"center-right",
+                "images": {
+                    "head": ["a"],
+                    "body": [
+                        "1l",
+                        "1r"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "music":"",
+        "background":"residential",
+        "text":"Position: { right }",
+        "person":"Developer",
+        "characters": [
+            {
+                "name":"Natsuki",
+                "effects": [
+                    
+                ],
+                "position":"right",
+                "images": {
+                    "head": ["a"],
+                    "body": [
+                        "1l",
+                        "1r"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "music":"",
+        "background":"residential",
+        "text":"Effect: { fade-out }",
+        "person":"Developer",
+        "characters": [
+            {
+                "name":"Natsuki",
+                "effects": [
+                    "fade-out"
+                ],
+                "position":"right",
+                "images": {
+                    "head": ["a"],
+                    "body": [
+                        "1l",
+                        "1r"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "music":"",
+        "background":"residential",
+        "text":"Effect: { fade-in }",
+        "person":"Developer",
+        "characters": [
+            {
+                "name":"Natsuki",
+                "effects": [
+                    "fade-in"
+                ],
+                "position":"right",
+                "images": {
+                    "head": ["a"],
+                    "body": [
+                        "1l",
+                        "1r"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "music":"",
+        "background":"residential",
+        "text":"Additional test: body and head fix",
+        "person":"Developer",
+        "characters": [
+            {
+                "name":"Natsuki",
+                "effects": [
+
+                ],
+                "position":"center",
+                "images": {
+                    "head": "x",
+                    "body": "3"
+                }
+            },
+            {
+                "name":"Yuri",
+                "effects": [
+
+                ],
+                "position":"center",
+                "images": {
+                    "head": ["a"],
+                    "body": [
+                        "1l",
+                        "1r"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "music":"",
+        "background":"residential",
+        "text":"Now testing Yuri positions and behavior. Effect: { fade-in }, position: { center }",
+        "person":"Developer",
+        "characters": [
+            {
+                "name":"Yuri",
+                "effects": [
+                    "fade-in"
+                ],
+                "position":"center",
+                "images": {
+                    "head": ["a"],
+                    "body": [
+                        "1l",
+                        "1r"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "music":"",
+        "background":"residential",
+        "text":"Effect: { jump }",
+        "person":"Developer",
+        "characters": [
+            {
+                "name":"Yuri",
+                "effects": [
+                    "jump"
+                ],
+                "position":"center",
+                "images": {
+                    "head": ["a"],
+                    "body": [
+                        "1l",
+                        "1r"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "music":"",
+        "background":"residential",
+        "text":"Position: { left }",
+        "person":"Developer",
+        "characters": [
+            {
+                "name":"Yuri",
+                "effects": [
+
+                ],
+                "position":"left",
+                "images": {
+                    "head": ["a"],
+                    "body": [
+                        "1l",
+                        "1r"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "music":"",
+        "background":"residential",
+        "text":"Effect: { fade-out }",
+        "person":"Developer",
+        "characters": [
+            {
+                "name":"Yuri",
+                "effects": [
+                    "fade-out"
+                ],
+                "position":"left",
+                "images": {
+                    "head": ["a"],
+                    "body": [
+                        "1l",
+                        "1r"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "music":"",
+        "background":"residential",
+        "text":"Effect: { fade-in }",
+        "person":"Developer",
+        "characters": [
+            {
+                "name":"Yuri",
+                "effects": [
+                    "fade-in"
+                ],
+                "position":"left",
+                "images": {
+                    "head": ["a"],
+                    "body": [
+                        "1l",
+                        "1r"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "music":"",
+        "background":"residential",
+        "text":"Position: { center-left }",
+        "person":"Developer",
+        "characters": [
+            {
+                "name":"Yuri",
+                "effects": [
+
+                ],
+                "position":"center-left",
+                "images": {
+                    "head": ["a"],
+                    "body": [
+                        "1l",
+                        "1r"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "music":"",
+        "background":"residential",
+        "text":"Effect: { fade-out }",
+        "person":"Developer",
+        "characters": [
+            {
+                "name":"Yuri",
+                "effects": [
+                    "fade-out"
+                ],
+                "position":"center-left",
+                "images": {
+                    "head": ["a"],
+                    "body": [
+                        "1l",
+                        "1r"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "music":"",
+        "background":"residential",
+        "text":"Effect: { fade-in }",
+        "person":"Developer",
+        "characters": [
+            {
+                "name":"Yuri",
+                "effects": [
+                    "fade-in"
+                ],
+                "position":"center-left",
+                "images": {
+                    "head": ["a"],
+                    "body": [
+                        "1l",
+                        "1r"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "music":"",
+        "background":"residential",
+        "text":"Position: { left-center }",
+        "person":"Developer",
+        "characters": [
+            {
+                "name":"Yuri",
+                "effects": [
+
+                ],
+                "position":"left-center",
+                "images": {
+                    "head": ["a"],
+                    "body": [
+                        "1l",
+                        "1r"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "music":"",
+        "background":"residential",
+        "text":"Effect: { fade-out }",
+        "person":"Developer",
+        "characters": [
+            {
+                "name":"Yuri",
+                "effects": [
+                    "fade-out"
+                ],
+                "position":"left-center",
+                "images": {
+                    "head": ["a"],
+                    "body": [
+                        "1l",
+                        "1r"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "music":"",
+        "background":"residential",
+        "text":"Effect: { fade-in }",
+        "person":"Developer",
+        "characters": [
+            {
+                "name":"Yuri",
+                "effects": [
+                    "fade-in"
+                ],
+                "position":"left-center",
+                "images": {
+                    "head": ["a"],
+                    "body": [
+                        "1l",
+                        "1r"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "music":"",
+        "background":"residential",
+        "text":"Position: { center }",
+        "person":"Developer",
+        "characters": [
+            {
+                "name":"Yuri",
+                "effects": [
+
+                ],
+                "position":"center",
+                "images": {
+                    "head": ["a"],
+                    "body": [
+                        "1l",
+                        "1r"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "music":"",
+        "background":"residential",
+        "text":"Effect: { fade-out }",
+        "person":"Developer",
+        "characters": [
+            {
+                "name":"Yuri",
+                "effects": [
+                    "fade-out"
+                ],
+                "position":"center",
+                "images": {
+                    "head": ["a"],
+                    "body": [
+                        "1l",
+                        "1r"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "music":"",
+        "background":"residential",
+        "text":"Effect: { fade-in }",
+        "person":"Developer",
+        "characters": [
+            {
+                "name":"Yuri",
+                "effects": [
+                    "fade-in"
+                ],
+                "position":"center",
+                "images": {
+                    "head": ["a"],
+                    "body": [
+                        "1l",
+                        "1r"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "music":"",
+        "background":"residential",
+        "text":"Position: { right-center }",
+        "person":"Developer",
+        "characters": [
+            {
+                "name":"Yuri",
+                "effects": [
+                    
+                ],
+                "position":"right-center",
+                "images": {
+                    "head": ["a"],
+                    "body": [
+                        "1l",
+                        "1r"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "music":"",
+        "background":"residential",
+        "text":"Effect: { fade-out }",
+        "person":"Developer",
+        "characters": [
+            {
+                "name":"Yuri",
+                "effects": [
+                    "fade-out"
+                ],
+                "position":"right-center",
+                "images": {
+                    "head": ["a"],
+                    "body": [
+                        "1l",
+                        "1r"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "music":"",
+        "background":"residential",
+        "text":"Effect: { fade-in }",
+        "person":"Developer",
+        "characters": [
+            {
+                "name":"Yuri",
+                "effects": [
+                    "fade-in"
+                ],
+                "position":"right-center",
+                "images": {
+                    "head": ["a"],
+                    "body": [
+                        "1l",
+                        "1r"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "music":"",
+        "background":"residential",
+        "text":"Position: { center-right }",
+        "person":"Developer",
+        "characters": [
+            {
+                "name":"Yuri",
+                "effects": [
+                    
+                ],
+                "position":"center-right",
+                "images": {
+                    "head": ["a"],
+                    "body": [
+                        "1l",
+                        "1r"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "music":"",
+        "background":"residential",
+        "text":"Effect: { fade-out }",
+        "person":"Developer",
+        "characters": [
+            {
+                "name":"Yuri",
+                "effects": [
+                    "fade-out"
+                ],
+                "position":"center-right",
+                "images": {
+                    "head": ["a"],
+                    "body": [
+                        "1l",
+                        "1r"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "music":"",
+        "background":"residential",
+        "text":"Effect: { fade-in }",
+        "person":"Developer",
+        "characters": [
+            {
+                "name":"Yuri",
+                "effects": [
+                    "fade-in"
+                ],
+                "position":"center-right",
+                "images": {
+                    "head": ["a"],
+                    "body": [
+                        "1l",
+                        "1r"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "music":"",
+        "background":"residential",
+        "text":"Position: { right }",
+        "person":"Developer",
+        "characters": [
+            {
+                "name":"Yuri",
+                "effects": [
+                    
+                ],
+                "position":"right",
+                "images": {
+                    "head": ["a"],
+                    "body": [
+                        "1l",
+                        "1r"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "music":"",
+        "background":"residential",
+        "text":"Effect: { fade-out }",
+        "person":"Developer",
+        "characters": [
+            {
+                "name":"Yuri",
+                "effects": [
+                    "fade-out"
+                ],
+                "position":"right",
+                "images": {
+                    "head": ["a"],
+                    "body": [
+                        "1l",
+                        "1r"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "music":"",
+        "background":"residential",
+        "text":"Effect: { fade-in }",
+        "person":"Developer",
+        "characters": [
+            {
+                "name":"Yuri",
+                "effects": [
+                    "fade-in"
+                ],
+                "position":"right",
+                "images": {
+                    "head": ["a"],
+                    "body": [
+                        "1l",
+                        "1r"
+                    ]
+                }
+            },
+            {
+                "name":"Monika",
+                "effects": [
+
+                ],
+                "position":"center",
+                "images": {
+                    "head": ["a"],
+                    "body": [
+                        "1l",
+                        "1r"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "music":"",
+        "background":"residential",
+        "text":"Now testing Monika positions and behavior. Effect: { fade-in }, position: { center }",
+        "person":"Developer",
+        "characters": [
+            {
+                "name":"Monika",
+                "effects": [
+                    "fade-in"
+                ],
+                "position":"center",
+                "images": {
+                    "head": ["a"],
+                    "body": [
+                        "1l",
+                        "1r"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "music":"",
+        "background":"residential",
+        "text":"Effect: { jump }",
+        "person":"Developer",
+        "characters": [
+            {
+                "name":"Monika",
+                "effects": [
+                    "jump"
+                ],
+                "position":"center",
+                "images": {
+                    "head": ["a"],
+                    "body": [
+                        "1l",
+                        "1r"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "music":"",
+        "background":"residential",
+        "text":"Position: { left }",
+        "person":"Developer",
+        "characters": [
+            {
+                "name":"Monika",
+                "effects": [
+
+                ],
+                "position":"left",
+                "images": {
+                    "head": ["a"],
+                    "body": [
+                        "1l",
+                        "1r"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "music":"",
+        "background":"residential",
+        "text":"Effect: { fade-out }",
+        "person":"Developer",
+        "characters": [
+            {
+                "name":"Monika",
+                "effects": [
+                    "fade-out"
+                ],
+                "position":"left",
+                "images": {
+                    "head": ["a"],
+                    "body": [
+                        "1l",
+                        "1r"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "music":"",
+        "background":"residential",
+        "text":"Effect: { fade-in }",
+        "person":"Developer",
+        "characters": [
+            {
+                "name":"Monika",
+                "effects": [
+                    "fade-in"
+                ],
+                "position":"left",
+                "images": {
+                    "head": ["a"],
+                    "body": [
+                        "1l",
+                        "1r"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "music":"",
+        "background":"residential",
+        "text":"Position: { center-left }",
+        "person":"Developer",
+        "characters": [
+            {
+                "name":"Monika",
+                "effects": [
+
+                ],
+                "position":"center-left",
+                "images": {
+                    "head": ["a"],
+                    "body": [
+                        "1l",
+                        "1r"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "music":"",
+        "background":"residential",
+        "text":"Effect: { fade-out }",
+        "person":"Developer",
+        "characters": [
+            {
+                "name":"Monika",
+                "effects": [
+                    "fade-out"
+                ],
+                "position":"center-left",
+                "images": {
+                    "head": ["a"],
+                    "body": [
+                        "1l",
+                        "1r"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "music":"",
+        "background":"residential",
+        "text":"Effect: { fade-in }",
+        "person":"Developer",
+        "characters": [
+            {
+                "name":"Monika",
+                "effects": [
+                    "fade-in"
+                ],
+                "position":"center-left",
+                "images": {
+                    "head": ["a"],
+                    "body": [
+                        "1l",
+                        "1r"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "music":"",
+        "background":"residential",
+        "text":"Position: { left-center }",
+        "person":"Developer",
+        "characters": [
+            {
+                "name":"Monika",
+                "effects": [
+
+                ],
+                "position":"left-center",
+                "images": {
+                    "head": ["a"],
+                    "body": [
+                        "1l",
+                        "1r"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "music":"",
+        "background":"residential",
+        "text":"Effect: { fade-out }",
+        "person":"Developer",
+        "characters": [
+            {
+                "name":"Monika",
+                "effects": [
+                    "fade-out"
+                ],
+                "position":"left-center",
+                "images": {
+                    "head": ["a"],
+                    "body": [
+                        "1l",
+                        "1r"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "music":"",
+        "background":"residential",
+        "text":"Effect: { fade-in }",
+        "person":"Developer",
+        "characters": [
+            {
+                "name":"Monika",
+                "effects": [
+                    "fade-in"
+                ],
+                "position":"left-center",
+                "images": {
+                    "head": ["a"],
+                    "body": [
+                        "1l",
+                        "1r"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "music":"",
+        "background":"residential",
+        "text":"Position: { center }",
+        "person":"Developer",
+        "characters": [
+            {
+                "name":"Monika",
+                "effects": [
+
+                ],
+                "position":"center",
+                "images": {
+                    "head": ["a"],
+                    "body": [
+                        "1l",
+                        "1r"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "music":"",
+        "background":"residential",
+        "text":"Effect: { fade-out }",
+        "person":"Developer",
+        "characters": [
+            {
+                "name":"Monika",
+                "effects": [
+                    "fade-out"
+                ],
+                "position":"center",
+                "images": {
+                    "head": ["a"],
+                    "body": [
+                        "1l",
+                        "1r"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "music":"",
+        "background":"residential",
+        "text":"Effect: { fade-in }",
+        "person":"Developer",
+        "characters": [
+            {
+                "name":"Monika",
+                "effects": [
+                    "fade-in"
+                ],
+                "position":"center",
+                "images": {
+                    "head": ["a"],
+                    "body": [
+                        "1l",
+                        "1r"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "music":"",
+        "background":"residential",
+        "text":"Position: { right-center }",
+        "person":"Developer",
+        "characters": [
+            {
+                "name":"Monika",
+                "effects": [
+                    
+                ],
+                "position":"right-center",
+                "images": {
+                    "head": ["a"],
+                    "body": [
+                        "1l",
+                        "1r"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "music":"",
+        "background":"residential",
+        "text":"Effect: { fade-out }",
+        "person":"Developer",
+        "characters": [
+            {
+                "name":"Monika",
+                "effects": [
+                    "fade-out"
+                ],
+                "position":"right-center",
+                "images": {
+                    "head": ["a"],
+                    "body": [
+                        "1l",
+                        "1r"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "music":"",
+        "background":"residential",
+        "text":"Effect: { fade-in }",
+        "person":"Developer",
+        "characters": [
+            {
+                "name":"Monika",
+                "effects": [
+                    "fade-in"
+                ],
+                "position":"right-center",
+                "images": {
+                    "head": ["a"],
+                    "body": [
+                        "1l",
+                        "1r"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "music":"",
+        "background":"residential",
+        "text":"Position: { center-right }",
+        "person":"Developer",
+        "characters": [
+            {
+                "name":"Monika",
+                "effects": [
+                    
+                ],
+                "position":"center-right",
+                "images": {
+                    "head": ["a"],
+                    "body": [
+                        "1l",
+                        "1r"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "music":"",
+        "background":"residential",
+        "text":"Effect: { fade-out }",
+        "person":"Developer",
+        "characters": [
+            {
+                "name":"Monika",
+                "effects": [
+                    "fade-out"
+                ],
+                "position":"center-right",
+                "images": {
+                    "head": ["a"],
+                    "body": [
+                        "1l",
+                        "1r"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "music":"",
+        "background":"residential",
+        "text":"Effect: { fade-in }",
+        "person":"Developer",
+        "characters": [
+            {
+                "name":"Monika",
+                "effects": [
+                    "fade-in"
+                ],
+                "position":"center-right",
+                "images": {
+                    "head": ["a"],
+                    "body": [
+                        "1l",
+                        "1r"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "music":"",
+        "background":"residential",
+        "text":"Position: { right }",
+        "person":"Developer",
+        "characters": [
+            {
+                "name":"Monika",
+                "effects": [
+                    
+                ],
+                "position":"right",
+                "images": {
+                    "head": ["a"],
+                    "body": [
+                        "1l",
+                        "1r"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "music":"",
+        "background":"residential",
+        "text":"Effect: { fade-out }",
+        "person":"Developer",
+        "characters": [
+            {
+                "name":"Monika",
+                "effects": [
+                    "fade-out"
+                ],
+                "position":"right",
+                "images": {
+                    "head": ["a"],
+                    "body": [
+                        "1l",
+                        "1r"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "music":"",
+        "background":"residential",
+        "text":"Effect: { fade-in }",
+        "person":"Developer",
+        "characters": [
+            {
+                "name":"Monika",
+                "effects": [
+                    "fade-in"
+                ],
+                "position":"right",
+                "images": {
+                    "head": ["a"],
+                    "body": [
+                        "1l",
+                        "1r"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "music":"",
+        "background":"residential",
+        "text":"End of the tests.",
+        "person":"Developer",
+        "characters": [
+
+        ]
+    },
+    {
+        "music":"",
+        "background":"residential",
+        "text":"location-reload",
+        "person":"",
+        "characters": [
+            
+        ]
+    }
+]

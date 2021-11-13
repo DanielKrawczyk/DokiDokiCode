@@ -1,0 +1,53 @@
+@import 'animations', 'positions';
+
+.story {
+    .characters {
+        position: absolute;
+        z-index: 4;
+        width: 100vw;
+        height: 100vh;
+        top: 0;
+        left: 0;
+
+        .character {
+            position: absolute;
+            z-index: $pos-zindex;
+            top: 100px;
+            left: 23vw;
+            opacity: 0;
+            @include trans(0.2s);
+
+            img {
+                width: auto;
+                height: 100vh;
+            }
+
+            .head {
+                position: absolute;
+                z-index: $pos-zindex;
+                top: 1px;
+                left: 0;
+            }
+
+            .body {
+                z-index: $pos-zindex - 1;
+
+                .left {
+                    position: absolute;
+                    top: 0;
+                    left: 1px;
+                }
+
+                .right {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                }
+            }
+        }
+    }
+
+    &.fade-out {
+        opacity: 0;
+    }
+}

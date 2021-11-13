@@ -1,17 +1,30 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
+import { RecoilRoot } from "recoil";
 import App from './App';
-import reportWebVitals from './reportWebVitals';
+import NoSupport from './NoSupport';
+import "./Styles/main.css";
+import AppSettings from "./AppSettings";
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+const Settings: AppSettings = new AppSettings();
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+if ( window.screen.width < 1024 || Settings.AllowSmallScreens ) {
+
+  ReactDOM.render(
+    <React.StrictMode>
+      <NoSupport />
+    </React.StrictMode>,
+    document.getElementById('root')
+  )
+
+} else {
+
+  ReactDOM.render(
+    <React.StrictMode>
+      <RecoilRoot>
+         <App />
+      </RecoilRoot>
+    </React.StrictMode>,
+    document.getElementById('root')
+  )
+}

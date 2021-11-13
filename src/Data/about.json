@@ -1,0 +1,304 @@
+[
+    {
+        "music":"5",
+        "background":"club",
+        "text":"...",
+        "person":"",
+        "characters": [
+            {
+                "name":"Natsuki",
+                "effects":[""],
+                "position":"center",
+                "images": {
+                    "head": [
+                        "k"
+                    ],
+                    "body": [
+                        "1bl",
+                        "2br"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "music":"5",
+        "background":"club",
+        "text":"...?",
+        "person":"Natsuki",
+        "characters": [
+            {
+                "name":"Natsuki",
+                "effects":["fade-in"],
+                "position":"center",
+                "images": {
+                    "head": [
+                        "k"
+                    ],
+                    "body": [
+                        "1bl",
+                        "2br"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "music":"5",
+        "background":"club",
+        "text":"What are you looking at?",
+        "person":"Natsuki",
+        "characters": [
+            {
+                "name":"Natsuki",
+                "effects":[""],
+                "position":"center",
+                "images": {
+                    "head": [
+                        "l"
+                    ],
+                    "body": [
+                        "1bl",
+                        "2br"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "music":"5",
+        "background":"club",
+        "text":"You didn't expect me here?",
+        "person":"Natsuki",
+        "characters": [
+            {
+                "name":"Natsuki",
+                "effects":[""],
+                "position":"center",
+                "images": {
+                    "head": [
+                        "y"
+                    ],
+                    "body": [
+                        "1bl",
+                        "2br"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "music":"5",
+        "background":"club",
+        "text":"I hope you enjoying this demo version of Doki Doki Literature Club as web game!",
+        "person":"Natsuki",
+        "characters": [
+            {
+                "name":"Natsuki",
+                "effects":[""],
+                "position":"center",
+                "images": {
+                    "head": [
+                        "y"
+                    ],
+                    "body": [
+                        "2bl",
+                        "2br"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "music":"5",
+        "background":"club",
+        "text":"Ekhem...",
+        "person":"$",
+        "characters": [
+            {
+                "name":"Natsuki",
+                "effects":[""],
+                "position":"center",
+                "images": {
+                    "head": [
+                        "y"
+                    ],
+                    "body": [
+                        "2bl",
+                        "2br"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "music":"5",
+        "background":"club",
+        "text":"What?",
+        "person":"Natsuki",
+        "characters": [
+            {
+                "name":"Natsuki",
+                "effects":[""],
+                "position":"center",
+                "images": {
+                    "head": [
+                        "m"
+                    ],
+                    "body": [
+                        "1bl",
+                        "1br"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "music":"5",
+        "background":"club",
+        "text":"Oh... Yeah, I forgot...",
+        "person":"Natsuki",
+        "characters": [
+            {
+                "name":"Natsuki",
+                "effects":[""],
+                "position":"center",
+                "images": {
+                    "head": [
+                        "s"
+                    ],
+                    "body": [
+                        "1bl",
+                        "1br"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "music":"5",
+        "background":"club",
+        "text":"You are here for some help...",
+        "person":"Natsuki",
+        "characters": [
+            {
+                "name":"Natsuki",
+                "effects":[""],
+                "position":"center",
+                "images": {
+                    "head": [
+                        "q"
+                    ],
+                    "body": [
+                        "1bl",
+                        "1br"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "music":"5",
+        "background":"club",
+        "text":"W-Well...To be honest, there isn't much to tell. Just click on the story box to procced through the story.",
+        "person":"Natsuki",
+        "characters": [
+            {
+                "name":"Natsuki",
+                "effects":[""],
+                "position":"center",
+                "images": {
+                    "head": [
+                        "n"
+                    ],
+                    "body": ["3b"]
+                }
+            }
+        ]
+    },
+    {
+        "music":"5",
+        "background":"club",
+        "text":"I hope you will enjoy my work here! JavaScript is just a script language, so I won't be able to handle some of the original in-game events...",
+        "person":"Natsuki",
+        "characters": [
+            {
+                "name":"Natsuki",
+                "effects":[""],
+                "position":"center",
+                "images": {
+                    "head": [
+                        "m"
+                    ],
+                    "body": ["3b"]
+                }
+            }
+        ]
+    },
+    {
+        "music":"5",
+        "background":"club",
+        "text":"But I'll do everything I can to make this web version of Doki Doki Literature Club perfect in every pixel!",
+        "person":"Natsuki",
+        "characters": [
+            {
+                "name":"Natsuki",
+                "effects":[""],
+                "position":"center",
+                "images": {
+                    "head": [
+                        "t"
+                    ],
+                    "body": [
+                        "2bl",
+                        "2br"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "music":"5",
+        "background":"club",
+        "text":"See you in the game!",
+        "person":"Natsuki",
+        "characters": [
+            {
+                "name":"Natsuki",
+                "effects":[""],
+                "position":"center",
+                "images": {
+                    "head": [
+                        "l"
+                    ],
+                    "body": [
+                        "1bl",
+                        "2br"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "music":"5",
+        "background":"club",
+        "text":"location-reload",
+        "person":"",
+        "characters": [
+            {
+                "name":"Natsuki",
+                "effects":["fade-out"],
+                "position":"center",
+                "images": {
+                    "head": [
+                        "l"
+                    ],
+                    "body": [
+                        "1bl",
+                        "2br"
+                    ]
+                }
+            }
+        ]
+    }
+]

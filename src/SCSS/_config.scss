@@ -1,0 +1,53 @@
+@font-face {
+    src: url('../Assets/Fonts/VerilySerifMono.otf') format('oft');
+    font-family: 'Verily';
+}
+@font-face {
+    src: url('../Assets/Fonts/DejaVuSansMono-Bold.ttf') format('truetype');
+    font-family: 'DejaVu';
+}
+@font-face {
+    src: url('../Assets/Fonts/Aller_Bd.ttf') format('truetype');
+    font-family: 'Aller';
+}
+@font-face {
+    src: url('../Assets/Fonts/RifficFree-Bold.ttf') format('truetype');
+    font-family: 'Riffic';
+    font-weight: 900;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    user-select: none;
+}
+
+$font-main: 'Verily';
+$font-story: 'Aller';
+$font-btn: 'Riffic';
+$color-main: #bb5599;
+$color-hover: #ffaacc;
+
+@mixin flex($flow, $justify, $align) {
+    display: flex;
+    flex-flow: $flow;
+    justify-content: $justify;
+    align-items: $align;
+}
+
+@mixin trans($s) {
+    transition: all $s ease-in-out;
+}
+
+@mixin marginX($x) {
+    margin-left: $x;
+    margin-right: $x;
+}
+
+body {
+    overflow-y: hidden;
+    overflow-x: hidden;
+    width: 100vw;
+    height: 100vh;
+}

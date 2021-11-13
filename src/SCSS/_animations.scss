@@ -1,0 +1,60 @@
+$anim-push-down: 80px;
+
+.story {
+
+    .characters {
+
+        .character {
+
+            &.fade-in {
+                opacity: 1;
+                top: 50px;
+                height: 90vh;
+            }
+
+            &.fade-out {
+                opacity: 0;
+                top: 100px;
+                height: 80vh;
+            }
+
+            &.push-down {
+                top: $anim-push-down;
+            }
+
+            &.jump {
+                animation: jump 0.2s linear;
+            }
+
+            &.fade-from-left {
+                opacity: 0;
+                height: 90vh;
+                top: 50px;
+                margin-left: -70vw;
+                @include trans(0.3s);
+
+                &.fade-left {
+                    opacity: 1;
+                    margin-left: -35vw;
+                    @include trans(0.3s);
+                    
+                    &.push-down {
+                        top: $anim-push-down;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@keyframes jump {
+    0% {
+        top: 50px;
+    }
+    50% {
+        top: 0;
+    }
+    100% {
+        top: 50px;
+    }
+}

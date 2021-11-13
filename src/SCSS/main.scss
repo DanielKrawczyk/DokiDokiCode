@@ -1,0 +1,36 @@
+@import 'config', 'nosupport', 'warning', 'mainmenu', 'Vcharacters', 'story', 'screen';
+
+.game {
+    position: relative;
+
+    .blackscreen {
+        position: absolute;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        background-color: #000;
+        opacity: 0;
+        @include trans(0.5s);
+
+        &.active {
+            z-index: 10;
+            opacity: 1;
+        }
+    }
+}
+
+.debug {
+    position: absolute;
+    z-index: 999;
+    top: 0;
+    right: 0;
+
+    width: 100%;
+    
+    p {
+        font-size: 24px;
+        font-weight: bold;
+    }
+}

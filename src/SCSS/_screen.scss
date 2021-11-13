@@ -1,0 +1,174 @@
+@media screen and (max-width: 1024px) {
+
+}
+
+@media screen and (max-width: 1024px) {
+    @keyframes jump {
+        0% {
+            top: 18vh;
+        }
+        50% {
+            top: 14vh;
+        }
+        100% {
+            top: 18vh;
+        }
+    }
+
+    #main-warning {
+        .second {
+            left: 0;
+            width: 100vw;
+            height: auto;
+            top: 15vh;
+        }
+    }
+
+    .main-menu {
+
+        &_final {
+
+            .menu {
+
+                &-logo {
+                    top: -5vh;
+
+                    img {
+                        width: 250px;
+                    }
+                }
+
+                &-list {
+                    left: 40px;
+                    p {
+                        font-size: 22px;
+                    }
+                }
+            }
+
+            .characters {
+                .yuri {
+                    top: 22vh;
+                    left: 45vw;
+
+                    img {
+                        width: 200px;
+                    }
+                }
+                .natsuki {
+                    top: 28vh;
+                    left: 60vw;
+
+                    img {
+                        width: 160px;
+                    }
+                }
+                .sayori {
+                    top: 30vh;
+                    left: 35vw;
+                    img {
+                        width: 200px;
+                    }
+                }
+                .monika {
+                    top: 25vh;
+                    left: 65vw;
+                    
+                    img {
+                        width: 400px;
+                    }
+                }
+            }
+        }
+
+        .logo {
+
+            img {
+                width: 100vw;
+                height: auto;
+            }
+        }
+    }
+
+    .story {
+
+        .storybar {
+
+            &-frame {
+                top: 75vh;
+                width: 90vw;
+                left: 5vh;
+
+                .arrow {
+                    top: 15vh;
+                }
+
+                &_person {
+                    top: -30px;
+                    font-size: 22px;
+                }
+
+                &_text {
+                    width: 95%;
+                    top: 20px;
+                    left: 20px;
+
+                    font-size: 22px;
+                }
+            }
+        }
+
+        .button {
+            top: 35vh;
+            left: 25vw;
+        }
+
+        .characters {
+
+            .character {
+                top: 50vh;
+                width: 400px;
+                height: 400px;
+
+                &.fade-in {
+                    top: 18vh;
+                    left: 18vw;
+                    width: 500px;
+                    height: 500px;
+                }
+                &.fade-out {
+                    top: 30vh;
+                    width: 400px;
+                    width: 400px;
+                }
+                &.push-down {
+                    top: 22vh;
+                }
+                &.pos-left {
+                    margin-left: -40vw;
+                }
+                &.fade-from-left {
+                    width: 500px;
+                    height: 500px;
+                    top: 18vh;
+   
+                    &.fade-left {
+                        
+                        &.push-down {
+                            top: 22vh;
+                        }
+                    }
+                }
+                &.pos-behind-left-center {
+                    margin-left: -27vw;
+                }
+                &.natsuki-head-fix {
+                    .head {
+                        top: 22px;
+                        left: 20px;
+                    }
+                }
+            }
+        }
+    }
+}

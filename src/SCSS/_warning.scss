@@ -1,0 +1,22 @@
+#main-warning {
+    width: 100vw;
+    height: 100vh;
+    background-color: #000;
+    
+    .second {
+        position: absolute;
+        height: 100vh;
+        width: auto;
+        left: 6vw;
+    }
+
+    .first {
+        @extend .second;
+        opacity: 1;
+        @include trans(2s);
+
+        &.hide {
+            opacity: 0;
+        }
+    }
+}

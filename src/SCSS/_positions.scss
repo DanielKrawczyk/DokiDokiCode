@@ -1,0 +1,59 @@
+
+
+.story {
+
+    .character {
+
+        &.pos-center {
+            margin-left: 0;
+        }
+
+        &.pos-left {
+            margin-left: -35vw;
+        }
+
+        &.pos-right {
+            margin-left: 38vw;
+        }
+
+        &.pos-center-left {
+            margin-left: -20vw;
+        }
+
+        &.pos-center-right {
+            margin-left: 25vw;
+        }
+
+        &.pos-left-center {
+            margin-left: -10vw;
+        }
+
+        &.pos-right-center {
+            margin-left: 15vw;
+        }
+
+        &.pos-behind-left-center {
+            margin-left: -17.5vw !important;
+            z-index: $pos-behind-zindex !important;
+
+            .head {
+                z-index: $pos-behind-zindex !important;
+            }
+
+            .body {
+                z-index: $pos-behind-zindex - 1 !important;
+            }
+        }
+
+        &.zindex {
+            z-index: 9;
+        }
+        
+        &.natsuki-head-fix {
+            .head {
+                top: 23px !important;
+                left: 19px !important;
+            }
+        }
+    }
+}

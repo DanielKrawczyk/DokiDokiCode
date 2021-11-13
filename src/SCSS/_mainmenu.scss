@@ -1,0 +1,271 @@
+@keyframes backgroundAnimated {
+    0% {
+        transform: translateX(0) translateY(0);
+    }
+    100% {
+        transform: translateX(-300px) translateY(-300px);
+    }
+}
+
+.main-menu {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    @include trans(0.5s);
+
+    &_final {
+        opacity: 0;
+        @include trans(0.5s);
+
+        .background {
+            position: absolute;
+            top: 0;
+            left: 18vh;
+
+            img {
+                position: absolute;
+                top: 0;
+                left: 20vw;
+                //animation: backgroundAnimated 10s linear infinite;
+            }
+
+            .img_1 {
+                top: 0;
+                left: 0;
+
+            }
+            .img_2 {
+                top: 0;
+                left: 100px;
+
+            }
+            .img_3 {
+                top: 100px;
+                left: 200px;
+
+            }
+            .img_4 {
+                top: 200px;
+                left: 300px;
+            }
+            .img_5 {
+                top: 300px;
+                left: 400px;
+            }
+        }
+    
+        .menu {
+            position: relative;
+    
+            &-background {
+                position: absolute;
+                top: 0;
+                left: 0;
+                z-index: 2;
+    
+                img {
+                    height: 100vh;
+                    width: auto;
+                }
+            }
+    
+            &-logo {
+                position: absolute;
+                top: -35px;
+                left: 100px;
+                z-index: 3;
+    
+                img {
+                    width: 300px;
+                    height: auto;
+                }
+            }
+    
+            &-list {
+                position: absolute;
+                top: 60vh;
+                left: 80px;
+                z-index: 3;
+    
+                @include flex (column wrap, flex-start, flex-start);
+    
+                p {
+                    font-family: $font-btn, white;
+                    -webkit-text-stroke: 2px $color-main;
+                    font-size: 30px;
+                    color: white;
+                    text-align: start;
+                    margin: 2px 0;
+    
+                    &:hover {
+                        cursor: pointer;
+                        -webkit-text-stroke: 2px $color-hover;
+                    }
+                }
+            }
+        }
+    
+        .characters {
+            position: relative;
+    
+            .yuri {
+                position: absolute;
+                z-index: 2;
+                top: 20px;
+                left: 33vw;
+    
+                img {
+                    width: 300px;
+                    height: auto;
+                }
+            }
+            .natsuki {
+                position: absolute;
+                z-index: 3;
+                top: 80px;
+                left: 45.5vw;
+    
+                img {
+                    width: 240px;
+                    height: auto;
+                }
+            }
+            .sayori {
+                position: absolute;
+                z-index: 3;
+                top: 130px;
+                left: 26vw;
+    
+                img {
+                    width: 300px;
+                    height: auto;
+                }
+            }
+            .monika {
+                position: absolute;
+                z-index: 4;
+                top: 120px;
+                left: 50vw;
+    
+                img {
+                    width: 600px;
+                    height: auto;
+                }
+            }
+        }
+
+        &.active {
+            opacity: 1;
+        }
+    }
+
+    .logo {
+        position: absolute;
+        top: 10vh;
+        opacity: 0;
+        width: 100vw;
+        height: 100vh;
+        text-align: center;
+        @include trans(0.5s);
+
+
+        &.active {
+            opacity: 1;
+        }
+    }
+
+    .warning {
+        position: relative;
+        opacity: 0;
+        @include trans(0.5s);
+
+        p {
+            position: absolute;
+            width: 100vw;
+            height: 100vh;
+            top: 45vh;
+            left: 0;
+
+            font-size: 30px;
+            font-weight: bold;
+            text-align: center;
+            font-family: $font-story;
+        }
+
+        &.active {
+            opacity: 1;
+        }
+    }
+
+    .name {
+        visibility: hidden;
+
+        &-frame {
+            position: relative;
+            width: 600px;
+            height: 250px;
+            margin: 0 auto;
+            top: 35vh;
+            z-index: 6;
+
+            img {
+                position: absolute;
+                top: 0;
+                left: 0;
+                opacity: 1;
+            }
+
+            &_input {
+                position: absolute;
+                top: 25px;
+                left: 25px;
+                width: 550px;
+                height: 200px;
+                text-align: center;
+                @include flex(column wrap, center, stretch);
+
+                input {
+                    background: none;
+                    border: none;
+                    width: 50%;
+                    margin: 3vh auto;
+
+                    text-align: center;
+                    padding: 0.2rem;
+                    font-size: 30px;
+                    font-family: $font-btn;
+                    color: white;
+                    -webkit-text-stroke: 2px $color-main;
+                }
+
+                input:focus {
+                    outline: none;
+                    background-color: none;
+                }
+
+                p {
+                    font-size: 30px;
+                    font-weight: bolder;
+                    font-family: $font-btn;
+                    color: white;
+                    -webkit-text-stroke: 2px $color-main;
+                }
+
+                .ok {
+                    &:hover {
+                        cursor: pointer;
+                        -webkit-text-stroke: 2px $color-hover;
+                    }
+                }
+            }
+        }
+
+        &.active {
+            visibility: visible;
+        }
+    }
+
+    &.fade-out {
+        opacity: 0;
+    }
+}
