@@ -10,6 +10,7 @@
 
 # production
 /build
+/production
 
 # src
 /src/DOKIDOKI_FILES
